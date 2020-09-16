@@ -11,11 +11,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-//        int x = 98;
-//        int y = 0;
-//        System.out.println(divideLBYL(x, y));
-//        System.out.println(divideEAFP(x, y));
-//        System.out.println(divide(x, y));
+        int x = 98;
+        int y = 0;
+        System.out.println(divideLBYL(x, y));
+       System.out.println(divideEAFP(x, y));
+        System.out.println(divide(x, y));
         int x = getIntEAFP();
         System.out.println("x is " + x);
     }
@@ -93,16 +93,10 @@ public class Example {
 
     private static int divide() {
         int x, y;
-//        try {
             x = getInt();
             y = getInt();
             System.out.println("x is " + x + ", y is " + y);
             return x / y;
-//        } catch(NoSuchElementException e) {
-//            throw new NoSuchElementException("Invalid input");
-//        } catch(ArithmeticException e) {
-//            throw new ArithmeticException("Divide by zero");
-//        }
     }
 
     private static int getInt() {
